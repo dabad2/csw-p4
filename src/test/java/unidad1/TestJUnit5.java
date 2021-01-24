@@ -17,7 +17,7 @@ Operar operar1 = new Operar(0,0);
  @Test
  public void testSumar() {
 	 
-	 assertEquals(3, operar1.sumar(1, 2));
+	 assertEquals(3, operar1.sumar(3, 2));
 
  }
 }
