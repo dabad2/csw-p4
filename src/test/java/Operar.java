@@ -1,5 +1,3 @@
-package unidad1;
-
 import static org.junit.Assert.assertEquals;
 
 //Se crea la clase OPERAR
