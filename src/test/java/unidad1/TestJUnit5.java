@@ -32,7 +32,7 @@ Operar operar1 = new Operar(0,0);
  @BeforeEach
  public void establecevalores(){
 	 System.out.println("Asignando valores a los atributos al entrar al test");
-	 operando1 = 1000; operando2 = 2;		
+	 operando1 = 2000; operando2 = 2;		
  }
  
   
