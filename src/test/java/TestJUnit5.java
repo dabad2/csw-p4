@@ -24,13 +24,13 @@ int operando1; int operando2;
 Operar operar1 = new Operar(0,0);
 
 //ANNOTATION
- @BeforeAll
+// @BeforeAll
  public static void avisoinicial(){
      System.out.println("La ejecución de las pruebas ha comenzado.");
     
  }
  
- @BeforeEach
+ //@BeforeEach
  public void establecevalores(){
 	 System.out.println("Asignando valores a los atributos al entrar al test");
 	 operando1 = 1; operando2 = 2;		
