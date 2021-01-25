@@ -4,6 +4,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Disabled;
+
+/*
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
@@ -13,7 +15,7 @@ import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertNotSame;
 import static org.junit.Assert.assertArrayEquals;
 
-
+*/
 public class TestJUnit5 {
 	
 int[] stringesperado = {0,2,4,6,8,10};
@@ -33,7 +35,13 @@ Operar operar1 = new Operar(0,0);
 	 operando1 = 1; operando2 = 2;		
  }
  
-  
+ 
+ public void testSumar() {
+	 
+	 //assertEquals(3, operar1.sumar(operando1, operando2));
+ }
+ 
+ /* 
 //4 asertos con éxito
  @Test
  public void testSumar() {
@@ -88,5 +96,6 @@ Operar operar1 = new Operar(0,0);
  public static void avisofinal(){
      System.out.println("La ejecución de las pruebas ha finalizado.");
  }
+ */
  
 }
